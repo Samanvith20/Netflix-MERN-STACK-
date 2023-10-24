@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-//import logo from "../assests/logo.png"
-//import background from "../assets/login.jpg";
+
 import { useNavigate } from "react-router-dom";
 
 import Header from '../components/Header';
