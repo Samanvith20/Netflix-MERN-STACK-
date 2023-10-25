@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import styled from 'styled-components'
 import logo from "../assests/logo.png"
+
 import { firebaseAuth } from "../utils/firebase-config";
 import { FaPowerOff, FaSearch } from "react-icons/fa";
 
