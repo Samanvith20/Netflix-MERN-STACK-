@@ -7,6 +7,7 @@ import logo from "../assests/logo.png"
 import { firebaseAuth } from "../utils/firebase-config";
 import { FaPowerOff, FaSearch } from "react-icons/fa";
 
+
 const Navbar = ({isScrolled}) => {
     const [showSearch, setShowSearch] = useState(false);
     const [inputHover, setInputHover] = useState(false);
